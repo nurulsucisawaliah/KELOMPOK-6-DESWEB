@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Desain Web Kelompok 6
+    </title>
+  <link rel="icon" href="http://example.com/favicon.png">
+  <script type="text/javascript" src="JQuery/jquery-3.6.0.min.js"></script>
+  <script type="text/javascript" src="JQuery/js/jquery-ui.js"></script>
+  <link rel="stylesheet" type="text/css" href="JQuery/js/jquery-ui.css" />
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="icon" href="Logo_UNS.png">
+  <script type="text/javascript">
+    $(document).ready(function () {
+      $("#tabs").tabs();
+    });
+  </script>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <span class="boldertext">GALERI PAHLAWAN REVOLUSI</span>
+      <ul>
+          <li><a href="#"> Home </a></li>
+          <li><a href="#"> About </a></li>
+          <li><a href="#"> Galeri </a></li>
+      </ul>
+    </header>
+    <div class="wrap">
+
+      <div class="slidegambar fade">
+        <div class="halaman">1 / 7</div>
+        <img src="image/image1.jpg" style="width:100%">
+        <div class="text">Jenderal Ahmad Yani</div>
+      </div>
+
+      <div class="slidegambar fade">
+        <div class="halaman">2 / 7</div>
+        <img src="image/image2.jpg" style="width:100%">
+        <div class="text">Letjen Suprapto</div>
+      </div>
+
+      <div class="slidegambar fade">
+        <div class="halaman">3 / 7</div>
+        <img src="image/image3.jpg" style="width:100%">
+        <div class="text">Mayjen S Parman</div>
+      </div>
+
+      <div class="slidegambar fade">
+          <div class="halaman">4 / 7</div>
+          <img src="image/image4.jpg" style="width:100%">
+          <div class="text">MT Haryono</div>
+      </div>
+
+      <div class="slidegambar fade">
+          <div class="halaman">5 / 7</div>
+          <img src="image/image5.jpg" style="width:100%">
+          <div class="text">D.I. Panjaitan</div>
+      </div>
+
+      <div class="slidegambar fade">
+          <div class="halaman">6 / 7</div>
+          <img src="image/image6.jpg" style="width:100%">
+          <div class="text">Sutoyo Siswomihardjo</div>
+      </div>
+
+      <div class="slidegambar fade">
+          <div class="halaman">7 / 7</div>
+          <img src="image/image7.jpg" style="width:100%">
+          <div class="text">Pierre Tendean</div>
+      </div>
+
+      
+
+      <a class="prev" onclick="pindahSlide(-1)">&#10094;</a>
+      <a class="next" onclick="pindahSlide(1)">&#10095;</a>
+
+    </div>
+      <div id="tabs">
+              <ul>
+                <li><a href="#tabs-1">Jenderal Ahmad Yani</a></li>
+                <li><a href="#tabs-2">Letjen Suprapto</a></li>
+                <li><a href="#tabs-3">Mayjen S Parman</a></li>
+                <li><a href="#tabs-4">MT Haryono</a></li>
+                <li><a href="#tabs-5">D.I Panjaitan</a></li>
+                <li><a href="#tabs-6">Sutoyo Siswomihardjo</a></li>
+                <li><a href="#tabs-7">Pierre Tendean</a></li>
+              </ul>
+              <div id="tabs-1">
+                Sudirman; lahir di Purbalingga, 24 Januari 1916 – meninggal di Magelang, 29 Januari 1950 pada umur 34 tahun[a]) adalah seorang perwira tinggi Indonesia pada masa Revolusi Nasional Indonesia. Sebagai panglima besar Tentara Nasional Indonesia pertama, ia adalah sosok yang dihormati di Indonesia. Terlahir dari pasangan rakyat biasa di Purbalingga, Hindia Belanda, Soedirman diadopsi oleh pamannya yang seorang priyayi.
+              </div>
+              <div id="tabs-2">
+                Ahmad Yani lahir di Jenar, Purworejo, Jawa Tengah pada tanggal 19 Juni 1922 di keluarga Wongsoredjo, keluarga yang bekerja di sebuah pabrik gula yang dijalankan oleh pemilik Belanda. Pada tahun 1927, Yani pindah dengan keluarganya ke Batavia, di mana ayahnya kini bekerja untuk General Belanda. Di Batavia, Yani bekerja jalan melalui pendidikan dasar dan menengah.
+              </div>
+              <div id="tabs-3">
+                S. Parman adalah salah satu pahlawan revolusi Indonesia dan tokoh militer Indonesia. Ia meninggal dibunuh pada persitiwa Gerakan 30 September dan mendapatkan gelar Letnan Jenderal Anumerta. Ia dimakamkan di TMP Kalibata, Jakarta.
+              </div>
+              <div id="tabs-4">
+                Mas Tirtodarmo Haryono (lahir di Surabaya, Jawa Timur, 20 Januari 1924 – meninggal di Lubang Buaya, Jakarta, 1 Oktober 1965 pada umur 41 tahun) adalah salah satu pahlawan revolusi Indonesia yang terbunuh pada persitiwa G30S. Ia dimakamkan di TMP Kalibata - Jakarta.
+              </div>
+              <div id="tabs-5">
+                Bernama lengkap Mayor Jenderal TNI Anumerta Donald Isaac Panjaitan lahir di Balige, Tapanuli, 9 Juni 1925. Beliau merupakan salah satu dari Pahlawan Revolusi yang juga merupakan korban kebiadaban PKI tahun 1965. Pendidikan formal diawali dari Sekolah Dasar, kemudian masuk Sekolah Menengah Pertama, dan terakhir di Sekolah Menengah Atas.
+              </div>
+              <div id="tabs-6">
+                Mayor Jenderal TNI Anumerta Sutoyo Siswomiharjo (lahir di Kebumen, Jawa Tengah, 28 Agustus 1922 – meninggal di Lubang Buaya, Jakarta, 1 Oktober 1965 pada umur 43 tahun) adalah seorang perwira tinggi TNI-AD yang diculik dan kemudian dibunuh dalam peristiwa Gerakan 30 September di Indonesia.
+              </div>
+              <div id="tabs-7">
+                Kapten Czi. (Anumerta) Pierre Andries Tendean (lahir 21 Februari 1939 – meninggal 1 Oktober 1965 pada umur 26 tahun) adalah seorang perwira militer Indonesia yang menjadi salah satu korban peristiwa Gerakan 30 September pada tahun 1965. Mengawali karier militer dengan menjadi intelijen dan kemudian ditunjuk sebagai Ajudan Jenderal Besar TNI Abdul Haris Nasution menggantikan Kapten Kav Adolf Gustaf Manullang ajudan Pak Nas, yang gugur dalam misi perdamaian di Kongo Afrika tahun 1963.
+              </div>
+      </div>
+    </div>
+    
+    <script>
+    var slideIndex = 1;
+    Slide(slideIndex);
+
+    function pindahSlide(n) {
+      Slide(slideIndex += n);
+    }
+
+    function Slide(n) {
+      var i;
+      var slides = document.getElementsByClassName("slidegambar");
+      if (n > slides.length) {slideIndex = 1}    
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";  
+      }
+
+      slides[slideIndex-1].style.display = "block";  
+    }
+
+    </script>
+  </div>
+  </body>
+</html> 
